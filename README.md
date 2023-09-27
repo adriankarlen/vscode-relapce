@@ -7,7 +7,7 @@
 </h2>
 
 This is a compilation of VS Code custom css and js files that can be used to
-customize the look and feel of VS Code. It is based on the
+customize the look and feel of VS Code. It is based on
 [Lapce](https://lapce.dev) but ultimately styled according to my own personal
 preference.
 
