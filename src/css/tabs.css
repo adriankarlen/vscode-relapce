@@ -1,0 +1,46 @@
+.tab.active {
+    border-bottom: 2px solid #cba6f7 !important;
+    color: #cba6f7 !important;
+    background: inherit !important;
+    border-right: 0px solid #0000 !important;
+
+    & + .tab {
+        border-left: 1px solid #11111b !important;
+    }
+}
+
+.tab {
+    background: inherit !important;
+    border-right: 1px solid #11111b !important;
+    height: 28px !important;
+    font-weight: 500;
+}
+.tabs-container {
+    height: auto !important;
+}
+
+.tabs-container > .tab .tab-label {
+    line-height: 28px !important;
+    &::before {
+        height: 28px !important;
+    }
+
+    &::after {
+        height: 28px !important;
+    }
+}
+
+.monaco-icon-label-container {
+    height: 28px !important;
+}
+
+.monaco-action-bar .action-item {
+    display: flex !important;
+}
+
+.editor-group-container
+    > .title
+    > .tabs-and-actions-container
+    > .monaco-scrollable-element {
+    margin-block: auto;
+}

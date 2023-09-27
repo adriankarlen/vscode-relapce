@@ -1,0 +1,9 @@
+/* Font family */
+.windows {
+    font-family: 'Inter V', system-ui, Ubuntu, Droid Sans, sans-serif;
+}
+
+/* Scrollbar */
+.decorationsOverviewRuler {
+    display: none !important;
+}

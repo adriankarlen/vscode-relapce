@@ -1,0 +1,45 @@
+{
+    "scm.diffDecorations": "gutter",
+    "editor": {
+        "hideCursorInOverviewRuler": true,
+        "overviewRulerBorder": false,
+        "scrollbar": {
+            "vertical": "auto",
+            "verticalScrollbarSize": 8
+        }
+    },
+    "vscode_custom_css.imports": [
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/js/horizontal_activity_bar.js",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/horizontal_activity_bar.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/command_center.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/global.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/tabs.css"
+    ],
+    "workbench": {
+        "tree.indent": 16,
+        "colorCustomizations": {
+            "widget.shadow": "#0000",
+            "scrollbar.shadow": "#0000",
+            "scrollbarSlider.background": "#00000000",
+            "editorOverviewRuler.addedForeground": "#0000",
+            "editorOverviewRuler.modifiedForeground": "#0000",
+            "editorOverviewRuler.deletedForeground": "#0000",
+            "editorOverviewRuler.infoForeground": "#0000",
+            "editorOverviewRuler.warningForeground": "#0000",
+            "editorOverviewRuler.errorForeground": "#0000",
+            "editorOverviewRuler.bracketMatchForeground": "#0000",
+            "editorOverviewRuler.commentForeground": "#0000",
+            "editorOverviewRuler.commentUnresolvedForeground": "#0000",
+            "editorOverviewRuler.currentContentForeground": "#0000",
+            "editorOverviewRuler.commonContentForeground": "#0000",
+            "editorOverviewRuler.incomingContentForeground": "#0000",
+            "editorOverviewRuler.findMatchForeground": "#0000",
+            "editorOverviewRuler.rangeHighlightForeground": "#0000",
+            "editorOverviewRuler.selectionHighlightForeground": "#0000",
+            "editorOverviewRuler.wordHighlightForeground": "#0000",
+            "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+            "editorOverviewRuler.wordHighlightTextForeground": "#0000",
+            "tree.indentGuidesStroke": "#0000"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@keyframes slide {
+    0% {
+        transform: translateY(-25%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.monaco-workbench
+    .part.titlebar.inactive
+    > .titlebar-container
+    > .titlebar-center
+    > .window-title
+    > .command-center
+    .action-item.command-center {
+    border-radius: 0px !important;
+}
+
+div.quick-input-widget {
+    margin-top: 10% !important;
+    border: 1px solid #11111b;
+    animation: slide 167ms cubic-bezier(0, 0, 0, 1) forwards !important;
+}
