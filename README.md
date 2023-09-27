@@ -26,8 +26,9 @@ preference.
 
 #### [Custom CSS and JS Loader](https://github.com/be5invis/vscode-custom-css)
 
-> **Please read the documentation provided by the extension author on how to** >
-> **install and use the extension.**
+> **Extension documentation**\
+> Please read the documentation provided by the extension author on how to install
+> and use the extension.
 
 &nbsp;
 
