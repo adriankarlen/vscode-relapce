@@ -1,0 +1,8 @@
+:root {
+    /* Font-families */
+    --relapse-font: 'Inter V', system-ui, Ubuntu, Droid Sans, sans-serif;
+
+    /* Colors */
+    --relapse-accent: #cba6f7;
+    --relapse-border: #11111b;
+}

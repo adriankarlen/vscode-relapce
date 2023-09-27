@@ -1,6 +1,6 @@
 /* Font family */
 .windows {
-    font-family: 'Inter V', system-ui, Ubuntu, Droid Sans, sans-serif;
+    font-family: var(--relapse-font);
 }
 
 /* Scrollbar */

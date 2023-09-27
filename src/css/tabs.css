@@ -1,17 +1,17 @@
 .tab.active {
-    border-bottom: 2px solid #cba6f7 !important;
-    color: #cba6f7 !important;
+    border-bottom: 2px solid var(--relapse-accent) !important;
+    color: var(--relapse-accent) !important;
     background: inherit !important;
     border-right: 0px solid #0000 !important;
 
     & + .tab {
-        border-left: 1px solid #11111b !important;
+        border-left: 1px solid var(--relapse-border) !important;
     }
 }
 
 .tab {
     background: inherit !important;
-    border-right: 1px solid #11111b !important;
+    border-right: 1px solid var(--relapse-border) !important;
     height: 28px !important;
     font-weight: 500;
 }

@@ -10,9 +10,10 @@
     },
     "vscode_custom_css.imports": [
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/js/horizontal_activity_bar.js",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/global.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/vars.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/horizontal_activity_bar.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/command_center.css",
-        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/global.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/tabs.css"
     ],
     "workbench": {
