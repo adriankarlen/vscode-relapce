@@ -89,7 +89,10 @@ Update the `font-family` in `src/css/vars.css`.
     "list.activeSelectionBackground": "#313244",
     "notifications.border": "#11111b",
     "notifications.background": "#181825",
-    "notificationToast.border": "#11111b"
+    "notificationToast.border": "#11111b",
+    "tab.inactiveForeground": "#a6adc8",
+    "titleBar.border": "#11111b",
+    "tab.border": "#11111b"
 }
 ```
 

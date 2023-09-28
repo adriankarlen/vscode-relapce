@@ -45,7 +45,6 @@
 }
 
 .tabs-and-actions-container {
-    border-top: 1px solid var(--vscode-tab-border);
     border-bottom: 1px solid var(--vscode-tab-border);
 }
 

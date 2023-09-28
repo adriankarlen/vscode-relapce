@@ -1,7 +1,6 @@
 .activitybar {
     width: 100% !important;
-    height: 37px !important;
-    border-top: 1px solid var(--vscode-activityBar-border);
+    height: 35px !important;
     border-bottom: 1px solid var(--vscode-activityBar-border);
     display: flex;
     align-items: center;
