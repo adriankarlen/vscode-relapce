@@ -13,7 +13,7 @@
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/global.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/vars.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/horizontal_activity_bar.css",
-        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/command_center.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/centralized_command_center.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapse/src/css/tabs.css"
     ],
     "workbench": {
