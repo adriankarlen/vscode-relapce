@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapse/main/misc/logo.webp" alt="Relapse" width="100"/>
+    <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapse/main/misc/logo.svg" alt="Relapse" width="100"/>
     <br/>
     <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapse/main/misc/transparent.png" height="30" width="0px"/>
     VS Code Relapse
