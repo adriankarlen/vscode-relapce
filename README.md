@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapce/main/assets/relapce.webp" alt="Relapce" width="100"/>
+    <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapce/main/assets/relapce.webp" alt="Relapce" width="200"/>
     <br/>
     <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapce/main/assets/transparent.png" height="30" width="0px"/>
     VS Code Relapce
