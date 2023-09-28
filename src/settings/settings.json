@@ -15,7 +15,9 @@
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/horizontal_activity_bar.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/centralized_command_center.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/tabs.css",
-        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/custom_icon.css"
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/custom_icon.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/suggestions.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/notifications.css"
     ],
     "workbench": {
         "tree.indent": 16,
