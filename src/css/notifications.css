@@ -1,0 +1,6 @@
+.monaco-workbench
+    > .notifications-toasts
+    .notification-toast-container
+    > .notification-toast {
+    border-radius: 0px;
+}
