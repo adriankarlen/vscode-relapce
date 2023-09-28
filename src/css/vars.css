@@ -1,4 +1,39 @@
 :root {
     /* Font-families */
     --relapce-font: 'Inter V', system-ui, Ubuntu, Droid Sans, sans-serif;
+
+    /* Colors */
+    --relapce-symbolIcon-arrayBackground: hsl(23, 92%, 75%, 0.4);
+    --relapce-symbolIcon-booleanBackground: hsl(267, 84%, 81%, 0.4);
+    --relapce-symbolIcon-classBackground: hsl(41, 86%, 83%, 0.4);
+    --relapce-symbolIcon-colorBackground: hsl(316, 72%, 86%, 0.4);
+    --relapce-symbolIcon-constantBackground: hsl(23, 92%, 75%, 0.4);
+    --relapce-symbolIcon-constructorBackground: hsl(232, 97%, 85%, 0.4);
+    --relapce-symbolIcon-enumeratorBackground: hsl(41, 86%, 83%, 0.4);
+    --relapce-symbolIcon-enumeratorMemberBackground: hsl(41, 86%, 83%, 0.4);
+    --relapce-symbolIcon-eventBackground: hsl(316, 72%, 86%, 0.4);
+    --relapce-symbolIcon-fieldBackground: hsl(226, 64%, 88%, 0.4);
+    --relapce-symbolIcon-fileBackground: hsl(267, 84%, 81%, 0.4);
+    --relapce-symbolIcon-folderBackground: hsl(267, 84%, 81%, 0.4);
+    --relapce-symbolIcon-functionBackground: hsl(217, 92%, 76%, 0.4);
+    --relapce-symbolIcon-interfaceBackground: hsl(41, 86%, 83%, 0.4);
+    --relapce-symbolIcon-keyBackground: hsl(170, 57%, 73%, 0.4);
+    --relapce-symbolIcon-keywordBackground: hsl(267, 84%, 81%, 0.4);
+    --relapce-symbolIcon-methodBackground: hsl(217, 92%, 76%, 0.4);
+    --relapce-symbolIcon-moduleBackground: hsl(226, 64%, 88%, 0.4);
+    --relapce-symbolIcon-namespaceBackground: hsl(41, 86%, 83%, 0.4);
+    --relapce-symbolIcon-nullBackground: hsl(350, 65%, 77%, 0.4);
+    --relapce-symbolIcon-numberBackground: hsl(23, 92%, 75%, 0.4);
+    --relapce-symbolIcon-objectBackground: hsl(41, 86%, 83%, 0.4);
+    --relapce-symbolIcon-operatorBackground: hsl(170, 57%, 73%, 0.4);
+    --relapce-symbolIcon-packageBackground: hsl(0, 59%, 88%, 0.4);
+    --relapce-symbolIcon-propertyBackground: hsl(350, 65%, 77%, 0.4);
+    --relapce-symbolIcon-referenceBackground: hsl(41, 86%, 83%, 0.4);
+    --relapce-symbolIcon-snippetBackground: hsl(0, 59%, 88%, 0.4);
+    --relapce-symbolIcon-stringBackground: hsl(115, 54%, 76%, 0.4);
+    --relapce-symbolIcon-structBackground: hsl(170, 57%, 73%, 0.4);
+    --relapce-symbolIcon-textBackground: hsl(226, 64%, 88%, 0.4);
+    --relapce-symbolIcon-typeParameterBackground: hsl(350, 65%, 77%, 0.4);
+    --relapce-symbolIcon-unitBackground: hsl(226, 64%, 88%, 0.4);
+    --relapce-symbolIcon-variableBackground: hsl(226, 64%, 88%, 0.4);
 }
