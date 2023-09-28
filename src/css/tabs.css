@@ -1,20 +1,24 @@
 .tab.active {
-    border-bottom: 2px solid var(--relapse-accent) !important;
-    color: var(--relapse-accent) !important;
+    border-bottom: 2px solid var(--vscode-tab-activeForeground) !important;
     background: inherit !important;
     border-right: 0px solid #0000 !important;
 
     & + .tab {
-        border-left: 1px solid var(--relapse-border) !important;
+        border-left: 1px solid var(--vscode-tab-border) !important;
     }
 }
 
 .tab {
     background: inherit !important;
-    border-right: 1px solid var(--relapse-border) !important;
+    border-right: 1px solid var(--vscode-tab-border) !important;
     height: 28px !important;
     font-weight: 500;
+
+    & .monaco-icon-label {
+        color: var(--vscode-tab-inactiveForeground) !important;
+    }
 }
+
 .tabs-container {
     height: auto !important;
 }
@@ -30,12 +34,22 @@
     }
 }
 
-.monaco-icon-label-container {
-    height: 28px !important;
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container
+    > .title
+    > .tabs-and-actions-container.tabs-border-bottom:after {
+    display: none !important;
 }
 
-.monaco-action-bar .action-item {
-    display: flex !important;
+.tabs-and-actions-container {
+    border-top: 1px solid var(--vscode-tab-border);
+    border-bottom: 1px solid var(--vscode-tab-border);
+}
+
+.monaco-icon-label-container {
+    height: 28px !important;
 }
 
 .editor-group-container
