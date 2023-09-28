@@ -30,6 +30,8 @@ preference.
 > Please read the documentation provided by the extension author on how to install
 > and use the extension.
 
+#### [Inter Font](https://rsms.me/inter/) (optional)
+
 &nbsp;
 
 ## 🚀 Installation
@@ -39,14 +41,17 @@ preference.
     `settings.json` file.
 3.  Update the `>> PATH TO YOUR CLONED REPO <<` to point to the location of your
     cloned repository.
-4.  Change the variables in `src/settings/vars.css` to match your theme.
-5.  Apply the custom css and js files to VS Code via the Custom CSS and JS
+4.  Apply the custom css and js files to VS Code via the Custom CSS and JS
     Loader extension.
 
 #### Want to use the default activity bar?
 
 Remove the `horizontal_activity_bar`-files from the `vscode_custom_css.imports`
 in `settings.json`.
+
+#### Want to use another font?
+
+Update the `font-family` in `src/css/vars.css`.
 
 &nbsp;
 
