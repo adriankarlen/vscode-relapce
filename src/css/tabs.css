@@ -44,12 +44,19 @@
     display: none !important;
 }
 
-.tabs-and-actions-container {
-    border-bottom: 1px solid var(--vscode-tab-border);
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container
+    > .title
+    .tabs-container
+    > .tab
+    > .tab-actions {
+    height: 28px;
 }
 
-.monaco-icon-label-container {
-    height: 28px !important;
+.tabs-and-actions-container {
+    border-bottom: 1px solid var(--vscode-tab-border);
 }
 
 .editor-group-container
