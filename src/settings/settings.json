@@ -17,7 +17,8 @@
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/tabs.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/custom_icon.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/suggestions.css",
-        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/notifications.css"
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/notifications.css",
+        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/colorpicker.css"
     ],
     "workbench": {
         "tree.indent": 16,
