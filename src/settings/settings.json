@@ -25,7 +25,6 @@
         "colorCustomizations": {
             "widget.shadow": "#0000",
             "scrollbar.shadow": "#0000",
-            "scrollbarSlider.background": "#00000000",
             "editorOverviewRuler.addedForeground": "#0000",
             "editorOverviewRuler.modifiedForeground": "#0000",
             "editorOverviewRuler.deletedForeground": "#0000",
