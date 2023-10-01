@@ -3,21 +3,14 @@ let activityBar = null;
 let sidebarContainer = null;
 let sidebarContent = null;
 let activityBarContainer = null;
+let panes = null;
 
 const DEFAULT_ACTIVITYBAR_WIDTH = 48;
 
 function observeElementChanges() {
     console.info('DOM fully loaded and parsed');
 
-    if (!sidebarContainer) {
-        console.error(
-            'Could not find Container element of workbench.parts.sidebar'
-        );
-        return;
-    }
-
-    // Create an observer instance linked to the callback function
-    const observer = new MutationObserver((mutationsList) => {
+    const resizeObserver = new MutationObserver(mutationsList => {
         for (const mutation of mutationsList) {
             if (mutation.type === 'attributes') {
                 if (
@@ -29,15 +22,40 @@ function observeElementChanges() {
         }
     });
 
-    // Start observing the target node for configured mutations
-    observer.observe(sidebarContainer, { attributes: true });
+    resizeObserver.observe(sidebarContainer, { attributes: true });
+
+    const paneAmountObserver = new MutationObserver(mutationsList => {
+        for (const mutation of mutationsList) {
+            if (mutation.type === 'childList') {
+                if (checkPaneContainerTopChanges()) {
+                    setStyle();
+                }
+            }
+        }
+    });
+
+    const paneContainerParent = panes[0].parentElement.parentElement;
+    paneAmountObserver.observe(paneContainerParent, { childList: true });
 }
 
 function setStyle() {
     // Set sidebarContainer.left to 0 to make it appear on the left edge of the screen
     sidebarContainer.style.left = 0;
-    // Set sidebarContainer.top to the width of activityBarContainer to make it appear below the activitybar
+    // Set sidebarContainer.top to the height of activityBar to make it appear below the activitybar
     sidebarContainer.style.top = `${activityBar.offsetHeight}px`;
+    // Adjust placement of closed panes
+    panes = sidebar.querySelectorAll('.pane');
+    panes.forEach(pane => {
+        const paneContainer = pane.parentElement;
+        const currTop = parseInt(
+            getComputedStyle(paneContainer).getPropertyValue('top'),
+            10
+        );
+        if (paneContainer.dataset.prevTop === currTop || currTop === 0) return;
+        const newTop = currTop - activityBar.offsetHeight;
+        paneContainer.style.top = `${newTop}px`;
+        paneContainer.dataset.prevTop = newTop;
+    });
     const newWidth = sidebarContainer.offsetWidth + DEFAULT_ACTIVITYBAR_WIDTH;
 
     if (activityBarContainer.offsetWidth !== newWidth) {
@@ -46,6 +64,22 @@ function setStyle() {
         sidebarContent.style.width = `${newWidth}px`;
         activityBarContainer.style.width = `${newWidth}px`;
     }
+}
+
+function checkPaneContainerTopChanges() {
+    let changed = false;
+    panes.forEach(pane => {
+        const paneContainer = pane.parentElement;
+        const currTop = parseInt(
+            getComputedStyle(paneContainer).getPropertyValue('top'),
+            10
+        );
+        if (paneContainer.dataset.prevTop !== currTop) {
+            changed = true;
+            return changed;
+        }
+    });
+    return changed;
 }
 
 function checkElementsAreLoaded() {
