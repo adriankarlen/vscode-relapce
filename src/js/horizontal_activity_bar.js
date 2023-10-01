@@ -41,7 +41,7 @@ function observeElementChanges() {
 function setStyle() {
     // Set sidebarContainer.left to 0 to make it appear on the left edge of the screen
     sidebarContainer.style.left = 0;
-    // Set sidebarContainer.top to the height of activityBarContainer to make it appear below the activitybar
+    // Set sidebarContainer.top to the height of activityBar to make it appear below the activitybar
     sidebarContainer.style.top = `${activityBar.offsetHeight}px`;
     // Adjust placement of closed panes
     panes = sidebar.querySelectorAll('.pane');
