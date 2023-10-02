@@ -1,27 +1,40 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4096 4096" width="4096" height="4096">
-	<title>Relapce</title>
-	<defs>
-		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2849.151,0,0,3274.589,622.611,2048.375)">
-			<stop offset="0" stop-color="#1e66f5"/>
-			<stop offset="1" stop-color="#f38ba8"/>
-		</linearGradient>
-		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2849.151,0,0,3274.589,622.611,2048.375)">
-			<stop offset="0" stop-color="#1e66f5"/>
-			<stop offset="1" stop-color="#f38ba8"/>
-		</linearGradient>
-	</defs>
-	<style>
-		.s0 { fill: none;stroke: #ffffff;stroke-miterlimit:100;stroke-width: 800 } 
-		.s1 { fill: #ffffff } 
-		.s2 { fill: none;stroke: url(#g1);stroke-miterlimit:100;stroke-width: 400 } 
-		.s3 { fill: none;stroke: url(#g2);stroke-miterlimit:100;stroke-width: 400 } 
-	</style>
-	<path id="Shape 2 copy 2" class="s0" d="m697.6 3678.9c-33.3 19.3-75-4.8-75-43.3v-3174.5c0-38.4 41.7-62.5 75-43.3l2749.2 1587.3c33.3 19.2 33.3 67.3 0 86.6z"/>
-	<path id="Shape 3" class="s1" d="m1295.5 1201.4l-303.8 175.3v-350.7z"/>
-	<path id="Shape 3 copy 3" class="s1" d="m1295.5 2892.4l-303.8 175.3 0.1-350.7z"/>
-	<path id="Shape 3 copy" class="s1" d="m3109.4 1397l-303.5-175.8 304-174.9z"/>
-	<path id="Shape 3 copy 2" class="s1" d="m3087.4 3081l-303.5-175.8 304-174.9z"/>
-	<path id="Shape 2 copy 3" class="s0" d="m3396.8 417.8c33.3-19.2 75 4.9 75 43.3v3174.5c0 38.5-41.7 62.6-75 43.3l-2749.2-1587.2c-33.3-19.3-33.3-67.4 0-86.6z"/>
-	<path id="Shape 2" class="s2" d="m697.6 3678.9c-33.3 19.3-75-4.8-75-43.3v-3174.5c0-38.4 41.7-62.5 75-43.3l2749.2 1587.3c33.3 19.2 33.3 67.3 0 86.6z"/>
-	<path id="Shape 2 copy" class="s3" d="m3396.8 417.8c33.3-19.2 75 4.9 75 43.3v3174.5c0 38.5-41.7 62.6-75 43.3l-2749.2-1587.2c-33.3-19.3-33.3-67.4 0-86.6z"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" width="4096" height="4096">
+    <defs>
+        <linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(2849.151 0 0 3274.589 622.611 2048.375)">
+            <stop offset="0" stop-color="#1e66f5" />
+            <stop offset="1" stop-color="#f38ba8" />
+        </linearGradient>
+        <linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(2849.151 0 0 3274.589 622.611 2048.375)">
+            <stop offset="0" stop-color="#1e66f5" />
+            <stop offset="1" stop-color="#f38ba8" />
+        </linearGradient>
+    </defs>
+    <style>
+        .s0 {
+            fill: none;
+            stroke: #fff;
+            stroke-miterlimit: 100;
+            stroke-width: 800
+        }
+
+        .s1 {
+            fill: #fff
+        }
+    </style>
+    <path id="Shape 2 copy 2" class="s0"
+        d="M697.6 3678.9c-33.3 19.3-75-4.8-75-43.3V461.1c0-38.4 41.7-62.5 75-43.3l2749.2 1587.3c33.3 19.2 33.3 67.3 0 86.6z" />
+    <path id="Shape 3" class="s1" d="m1295.5 1201.4-303.8 175.3V1026z" />
+    <path id="Shape 3 copy 3" class="s1" d="m1295.5 2892.4-303.8 175.3.1-350.7z" />
+    <path id="Shape 3 copy" class="s1" d="m3109.4 1397-303.5-175.8 304-174.9z" />
+    <path id="Shape 3 copy 2" class="s1" d="m3087.4 3081-303.5-175.8 304-174.9z" />
+    <path id="Shape 2 copy 3" class="s0"
+        d="M3396.8 417.8c33.3-19.2 75 4.9 75 43.3v3174.5c0 38.5-41.7 62.6-75 43.3L647.6 2091.7c-33.3-19.3-33.3-67.4 0-86.6z" />
+    <path id="Shape 2"
+        d="M697.6 3678.9c-33.3 19.3-75-4.8-75-43.3V461.1c0-38.4 41.7-62.5 75-43.3l2749.2 1587.3c33.3 19.2 33.3 67.3 0 86.6z"
+        style="fill:none;stroke:url(#g1);stroke-miterlimit:100;stroke-width:400" />
+    <path id="Shape 2 copy"
+        d="M3396.8 417.8c33.3-19.2 75 4.9 75 43.3v3174.5c0 38.5-41.7 62.6-75 43.3L647.6 2091.7c-33.3-19.3-33.3-67.4 0-86.6z"
+        style="fill:none;stroke:url(#g2);stroke-miterlimit:100;stroke-width:400" />
 </svg>
