@@ -36,6 +36,21 @@ function observeElementChanges() {
 
     const paneContainerParent = panes[0].parentElement.parentElement;
     paneAmountObserver.observe(paneContainerParent, { childList: true });
+
+    // const topChangedObserver = new MutationObserver(mutationsList => {
+    //     for (const mutation of mutationsList) {
+    //         if (
+    //             mutation.type === 'attributes' &&
+    //             mutation.attributeName === 'style'
+    //         ) {
+    //             if (checkPaneContainerTopChanges()) setStyle();
+    //         }
+    //     }
+    // });
+    // panes.forEach(pane => {
+    //     const paneContainer = pane.parentElement;
+    //     topChangedObserver.observe(paneContainer, { attributes: true });
+    // });
 }
 
 function setStyle() {
@@ -44,18 +59,21 @@ function setStyle() {
     // Set sidebarContainer.top to the height of activityBar to make it appear below the activitybar
     sidebarContainer.style.top = `${activityBar.offsetHeight}px`;
     // Adjust placement of closed panes
-    panes = sidebar.querySelectorAll('.pane');
-    panes.forEach(pane => {
-        const paneContainer = pane.parentElement;
-        const currTop = parseInt(
-            getComputedStyle(paneContainer).getPropertyValue('top'),
-            10
-        );
-        if (paneContainer.dataset.prevTop === currTop || currTop === 0) return;
-        const newTop = currTop - activityBar.offsetHeight;
-        paneContainer.style.top = `${newTop}px`;
-        paneContainer.dataset.prevTop = newTop;
-    });
+    if (checkPaneContainerTopChanges) {
+        panes = sidebar.querySelectorAll('.pane');
+        panes.forEach(pane => {
+            const paneContainer = pane.parentElement;
+            const currTop = parseInt(
+                getComputedStyle(paneContainer).getPropertyValue('top'),
+                10
+            );
+            if (paneContainer.dataset.prevTop === currTop || currTop === 0)
+                return;
+            const newTop = currTop - activityBar.offsetHeight;
+            paneContainer.style.top = `${newTop}px`;
+            paneContainer.dataset.prevTop = newTop;
+        });
+    }
     const newWidth = sidebarContainer.offsetWidth + DEFAULT_ACTIVITYBAR_WIDTH;
 
     if (activityBarContainer.offsetWidth !== newWidth) {
