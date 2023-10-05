@@ -17,7 +17,7 @@ preference.
 
 <details>
     <summary>Catppuccin Mocha</summary>
-    <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapce/main/assets/preview.png"/>
+    <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapce/main/assets/preview.webp"/>
 </details>
 
 &nbsp;
