@@ -73,8 +73,9 @@ Update the `font-family` in `src/css/vars.css`.
     "sideBarSectionHeader.border": "#11111b",
     "activityBar.background": "#181825",
     "activityBar.border": "#11111b",
-    "scrollbarSlider.hoverBackground": "#313244",
-    "scrollbarSlider.activeBackground": "#313244",
+    "scrollbarSlider.background": "#313244",
+    "scrollbarSlider.hoverBackground": "#45475a",
+    "scrollbarSlider.activeBackground": "#45475a",
     "statusBar.background": "#181825",
     "statusBar.foreground": "#bac2de",
     "commandCenter.border": "#11111b",
@@ -82,6 +83,7 @@ Update the `font-family` in `src/css/vars.css`.
     "commandCenter.activeBorder": "#11111b",
     "commandCenter.activeBackground": "#1e1e2e",
     "commandCenter.activeForeground": "#bac2de",
+    "commandCenter.inactiveBorder": "#11111b",
     "input.background": "#1e1e2e",
     "editorWidget.border": "#11111b",
     "editorSuggestWidget.border": "#11111b",
@@ -98,6 +100,6 @@ Update the `font-family` in `src/css/vars.css`.
 
 &nbsp;
 
-## 📚 License
+## 📜 License
 
 Licensed under the [MIT License](./LICENSE).
