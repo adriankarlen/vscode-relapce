@@ -1,3 +1,4 @@
-.vs-dark .colorpicker-color-decoration {
+.vs-dark .colorpicker-color-decoration,
+.colorpicker-color-decoration {
     border-color: var(--vscode-widget-border);
 }
