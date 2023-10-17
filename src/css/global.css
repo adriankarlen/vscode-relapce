@@ -5,6 +5,7 @@
 
 /* Hide scrollbar decorations */
 .decorationsOverviewRuler,
-.xterm-decoration-overview-ruler {
+.xterm-decoration-overview-ruler,
+.xterm-decoration-container {
     display: none !important;
 }
