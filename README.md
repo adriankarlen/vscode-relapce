@@ -56,47 +56,53 @@ Update the `font-family` in `src/css/vars.css`.
 &nbsp;
 
 > **Note**\
-> You might need to tweak your theme settings to get the best experience. Below is
-> an example of my customizations using [Catppuccin Mocha](https://github.com/catppuccin/vscode).
-
-```json
-"workbench.colorCustomizations": {
-    "editorGroupHeader.tabsBackground": "#1e1e2e",
-    "editorGroupHeader.tabsBorder": "#11111b",
-    "widget.border": "#11111b",
-    "titleBar.activeBackground": "#181825",
-    "panel.background": "#1e1e2e",
-    "panel.border": "#11111b",
-    "panelTitle.activeBorder": "#cba6f7",
-    "sideBar.border": "#11111b",
-    "sideBarSectionHeader.background": "#1e1e2e",
-    "sideBarSectionHeader.border": "#11111b",
-    "activityBar.background": "#181825",
-    "activityBar.border": "#11111b",
-    "scrollbarSlider.background": "#313244",
-    "scrollbarSlider.hoverBackground": "#45475a",
-    "scrollbarSlider.activeBackground": "#45475a",
-    "statusBar.background": "#181825",
-    "statusBar.foreground": "#bac2de",
-    "commandCenter.border": "#11111b",
-    "commandCenter.background": "#1e1e2e",
-    "commandCenter.activeBorder": "#11111b",
-    "commandCenter.activeBackground": "#1e1e2e",
-    "commandCenter.activeForeground": "#bac2de",
-    "commandCenter.inactiveBorder": "#11111b",
-    "input.background": "#1e1e2e",
-    "editorWidget.border": "#11111b",
-    "editorSuggestWidget.border": "#11111b",
-    "list.hoverBackground": "#11111b",
-    "list.activeSelectionBackground": "#313244",
-    "notifications.border": "#11111b",
-    "notifications.background": "#181825",
-    "notificationToast.border": "#11111b",
-    "tab.inactiveForeground": "#a6adc8",
-    "titleBar.border": "#11111b",
-    "tab.border": "#11111b"
-}
-```
+> You might need to tweak your theme settings to get the best experience.
+>
+> <details>
+>   <summary>Catppuccin Mocha Example</summary>
+>
+> ```json
+> "workbench.colorCustomizations": {
+>     "editorGroupHeader.tabsBackground": "#1e1e2e",
+>     "editorGroupHeader.tabsBorder": "#11111b",
+>     "editorGroup.border": "#11111b",
+>     "widget.border": "#11111b",
+>     "titleBar.activeBackground": "#181825",
+>     "panel.background": "#1e1e2e",
+>     "panel.border": "#11111b",
+>     "panelTitle.activeBorder": "#cba6f7",
+>     "sideBar.border": "#11111b",
+>     "sideBarSectionHeader.background": "#1e1e2e",
+>     "sideBarSectionHeader.border": "#11111b",
+>     "activityBar.background": "#181825",
+>     "activityBar.border": "#11111b",
+>     "scrollbarSlider.background": "#313244",
+>     "scrollbarSlider.hoverBackground": "#45475a",
+>     "scrollbarSlider.activeBackground": "#45475a",
+>     "statusBar.background": "#181825",
+>     "statusBar.foreground": "#bac2de",
+>     "commandCenter.border": "#11111b",
+>     "commandCenter.background": "#1e1e2e",
+>     "commandCenter.activeBorder": "#11111b",
+>     "commandCenter.activeBackground": "#1e1e2e",
+>     "commandCenter.activeForeground": "#bac2de",
+>     "commandCenter.inactiveBorder": "#11111b",
+>     "input.background": "#1e1e2e",
+>     "editorWidget.border": "#11111b",
+>     "editorSuggestWidget.border": "#11111b",
+>     "list.hoverBackground": "#11111b",
+>     "list.activeSelectionBackground": "#313244",
+>     "notifications.border": "#11111b",
+>     "notifications.background": "#181825",
+>     "notificationToast.border": "#11111b",
+>     "tab.inactiveForeground": "#a6adc8",
+>     "titleBar.border": "#11111b",
+>     "tab.border": "#11111b",
+>     "merge.border": "#11111b",
+> }
+> ```
+>
+> </details>
 
 &nbsp;
 
