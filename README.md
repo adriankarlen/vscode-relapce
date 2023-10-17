@@ -11,6 +11,16 @@ customize the look and feel of VS Code. It is based on
 [Lapce](https://lapce.dev) but ultimately styled according to my own personal
 preference.
 
+## 🌟 Features
+
+-   Horizontal activity bar
+-   Centralized command center
+-   Colored background on suggestion
+-   Removal of overview ruler decorations
+-   Uniform text color on tabs
+-   Thicker border on active tab
+-   Theme color on color picker border
+
 &nbsp;
 
 ## 📷 Examples
