@@ -3,7 +3,8 @@
     font-family: var(--relapce-font);
 }
 
-/* Scrollbar */
-.decorationsOverviewRuler {
+/* Hide scrollbar decorations */
+.decorationsOverviewRuler,
+.xterm-decoration-overview-ruler {
     display: none !important;
 }
