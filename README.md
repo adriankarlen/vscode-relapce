@@ -164,10 +164,7 @@ Update the `font-family` in `src/css/vars.css`.
         "tab.inactiveForeground": "subtext0",
         "titleBar.border": "crust",
         "tab.border": "crust",
-        "merge.border": "crust",
-        "terminalCommandDecoration.defaultBackground": "surface2",
-        "terminalCommandDecoration.successBackground": "green",
-        "terminalCommandDecoration.errorBackground": "red",
+        "merge.border": "crust"
     },
 },
 ```
