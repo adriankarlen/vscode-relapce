@@ -49,3 +49,14 @@
 .monaco-action-bar .action-item.checked .action-label {
     color: var(--vscode-activityBar-inactiveForeground) !important;
 }
+
+.monaco-workbench
+    .activitybar
+    > .content
+    :not(.monaco-menu)
+    > .monaco-action-bar
+    .action-item.checked
+    .active-item-indicator:before {
+    border-left-color: transparent;
+    border-left-width: 0px;
+}
