@@ -7,9 +7,11 @@
 </h2>
 
 This is a compilation of VS Code custom css and js files that can be used to
-customize the look and feel of VS Code. It is based on
-[Lapce](https://lapce.dev) but ultimately styled according to my own personal
-preference.
+customize the look and feel of VS Code. It is started as a project to mimic the
+styling of [Lapce](https://lapce.dev), however in the end it became something I
+styled according to my own personal preference.
+
+&nbsp;
 
 ## 🌟 Features
 
@@ -20,6 +22,13 @@ preference.
 -   Uniform text color on tabs
 -   Thicker border on active tab
 -   Theme color on color picker border
+
+> **Note**\
+> The horizontal activity bar is still quite buggy with the positioning of the panes.
+> This is due to it being hard to determine when the vertical offset is needed to
+> be applied. I'm still trying to figure out this, so if you have any ideas pull
+> requests are welcome. A current workaround to fix the positioning is by resizing
+> the sidebar.
 
 &nbsp;
 
@@ -69,7 +78,7 @@ Update the `font-family` in `src/css/vars.css`.
 > You might need to tweak your theme settings to get the best experience.
 
 <details>
-  <summary>Catppuccin Mocha Example</summary>
+    <summary>Catppuccin Mocha example using VS Code colorCustomizations </summary>
 
 ```json
 "workbench.colorCustomizations": {
@@ -114,8 +123,64 @@ Update the `font-family` in `src/css/vars.css`.
 
 </details>
 
+<details>
+    <summary>Catppuccin example using theme overrides (supports all flavors)</summary>
+
+```json
+"catppuccin.customUIColors": {
+    "all": {
+        "editorGroupHeader.tabsBackground": "base",
+        "editorGroupHeader.tabsBorder": "crust",
+        "editorGroup.border": "crust",
+        "widget.border": "crust",
+        "titleBar.activeBackground": "mantle",
+        "panel.background": "base",
+        "panel.border": "crust",
+        "panelTitle.activeBorder": "accent",
+        "sideBar.border": "crust",
+        "sideBarSectionHeader.background": "base",
+        "sideBarSectionHeader.border": "crust",
+        "activityBar.background": "mantle",
+        "activityBar.border": "crust",
+        "scrollbarSlider.background": "surface0",
+        "scrollbarSlider.hoverBackground": "surface1",
+        "scrollbarSlider.activeBackground": "surface1",
+        "statusBar.background": "mantle",
+        "statusBar.foreground": "subtext1",
+        "commandCenter.border": "crust",
+        "commandCenter.background": "base",
+        "commandCenter.activeBorder": "crust",
+        "commandCenter.activeBackground": "base",
+        "commandCenter.activeForeground": "subtext1",
+        "commandCenter.inactiveBorder": "crust",
+        "input.background": "base",
+        "editorWidget.border": "crust",
+        "editorHoverWidget.border": "crust",
+        "editorSuggestWidget.border": "crust",
+        "list.hoverBackground": "crust",
+        "list.activeSelectionBackground": "surface0",
+        "notifications.border": "crust",
+        "notifications.background": "mantle",
+        "notificationToast.border": "crust",
+        "tab.inactiveForeground": "subtext0",
+        "titleBar.border": "crust",
+        "tab.border": "crust",
+        "merge.border": "crust",
+        "terminalCommandDecoration.defaultBackground": "surface2",
+        "terminalCommandDecoration.successBackground": "green",
+        "terminalCommandDecoration.errorBackground": "red",
+    },
+},
+```
+
+</details>
+
 &nbsp;
 
 ## 📜 License
 
 Licensed under the [MIT License](./LICENSE).
+
+```
+
+```
