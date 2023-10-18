@@ -26,9 +26,8 @@ styled according to my own personal preference.
 > **Note**\
 > The horizontal activity bar is still quite buggy with the positioning of the panes.
 > This is due to it being hard to determine when the vertical offset is needed to
-> be applied. I'm still trying to figure out this, so if you have any ideas pull
-> requests are welcome. A current workaround to fix the positioning is by resizing
-> the sidebar.
+> be applied. I'm still trying to figure this out, if you have any ideas pull requests
+> are welcome. A current workaround to fix the positioning is by resizing the sidebar.
 
 &nbsp;
 
