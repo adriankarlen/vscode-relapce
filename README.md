@@ -176,7 +176,3 @@ Update the `font-family` in `src/css/vars.css`.
 ## 📜 License
 
 Licensed under the [MIT License](./LICENSE).
-
-```
-
-```
