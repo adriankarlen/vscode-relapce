@@ -1,6 +1,4 @@
 <h2 align="center">
-    <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapce/main/assets/relapce.webp" alt="Relapce" width="200"/>
-    <br/>
     <img src="https://raw.githubusercontent.com/adriankarlen/vscode-relapce/main/assets/transparent.png" height="30" width="0px"/>
     VS Code Relapce
     <img src="https://raw.githubusercontent.com/adriankarlen/www/main/assets/transparent.png" height="30" width="0px"/>
@@ -15,19 +13,12 @@ styled according to my own personal preference.
 
 ## 🌟 Features
 
--   Horizontal activity bar
 -   Centralized command center
 -   Colored background on suggestion
 -   Removal of overview ruler decorations
 -   Uniform text color on tabs
 -   Thicker border on active tab
 -   Theme color on color picker border
-
-> **Note**\
-> The horizontal activity bar is still quite buggy with the positioning of the panes.
-> This is due to it being hard to determine when the vertical offset is needed to
-> be applied. I'm still trying to figure this out, if you have any ideas pull requests
-> are welcome. A current workaround to fix the positioning is by resizing the sidebar.
 
 &nbsp;
 
@@ -77,53 +68,7 @@ Update the `font-family` in `src/css/vars.css`.
 > You might need to tweak your theme settings to get the best experience.
 
 <details>
-    <summary>Catppuccin Mocha example using VS Code colorCustomizations </summary>
-
-```json
-"workbench.colorCustomizations": {
-    "editorGroupHeader.tabsBackground": "#1e1e2e",
-    "editorGroupHeader.tabsBorder": "#11111b",
-    "editorGroup.border": "#11111b",
-    "widget.border": "#11111b",
-    "titleBar.activeBackground": "#181825",
-    "panel.background": "#1e1e2e",
-    "panel.border": "#11111b",
-    "panelTitle.activeBorder": "#cba6f7",
-    "sideBar.border": "#11111b",
-    "sideBarSectionHeader.background": "#1e1e2e",
-    "sideBarSectionHeader.border": "#11111b",
-    "activityBar.background": "#181825",
-    "activityBar.border": "#11111b",
-    "scrollbarSlider.background": "#313244",
-    "scrollbarSlider.hoverBackground": "#45475a",
-    "scrollbarSlider.activeBackground": "#45475a",
-    "statusBar.background": "#181825",
-    "statusBar.foreground": "#bac2de",
-    "commandCenter.border": "#11111b",
-    "commandCenter.background": "#1e1e2e",
-    "commandCenter.activeBorder": "#11111b",
-    "commandCenter.activeBackground": "#1e1e2e",
-    "commandCenter.activeForeground": "#bac2de",
-    "commandCenter.inactiveBorder": "#11111b",
-    "input.background": "#1e1e2e",
-    "editorWidget.border": "#11111b",
-    "editorSuggestWidget.border": "#11111b",
-    "list.hoverBackground": "#11111b",
-    "list.activeSelectionBackground": "#313244",
-    "notifications.border": "#11111b",
-    "notifications.background": "#181825",
-    "notificationToast.border": "#11111b",
-    "tab.inactiveForeground": "#a6adc8",
-    "titleBar.border": "#11111b",
-    "tab.border": "#11111b",
-    "merge.border": "#11111b",
-}
-```
-
-</details>
-
-<details>
-    <summary>Catppuccin example using theme overrides (supports all flavors)</summary>
+    <summary>My catppuccin theme overrides</summary>
 
 ```json
 "catppuccin.customUIColors": {

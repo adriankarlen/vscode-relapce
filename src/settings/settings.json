@@ -9,13 +9,10 @@
         }
     },
     "vscode_custom_css.imports": [
-        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/js/horizontal_activity_bar.js",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/global.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/vars.css",
-        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/horizontal_activity_bar.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/centralized_command_center.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/tabs.css",
-        "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/custom_icon.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/suggestions.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/notifications.css",
         "file://>> PATH TO YOUR CLONED REPO <</vscode-relapce/src/css/colorpicker.css"
